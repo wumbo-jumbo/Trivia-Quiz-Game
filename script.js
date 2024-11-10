@@ -303,6 +303,7 @@ let currentLanguage = 'en';
 
 //sets the elements for the start of the quiz
 function startQuiz(){
+    bgm.play();
     currentQuestionIndex = 0;
     document.getElementById('progressBar').style.width = 0 + '%';
     score = 0;

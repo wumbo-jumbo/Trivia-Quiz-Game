@@ -299,11 +299,11 @@ let currentQuestionIndex = 0;
 let totalQuestions = 10;
 let score = 0;
 let currentLanguage = 'en';
-bgm.play();
 
 
 //sets the elements for the start of the quiz
 function startQuiz(){
+    bgm.play();
     currentQuestionIndex = 0;
     document.getElementById('progressBar').style.width = 0 + '%';
     score = 0;

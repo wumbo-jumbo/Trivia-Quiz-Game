@@ -445,6 +445,7 @@ function showScore(){
     
 }
 
+//handles next button based on question length
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
